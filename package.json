@@ -1,0 +1,27 @@
+{
+  "name": "scaffolding",
+  "description": "A skeleton NodeJS project",
+  "version": "0.1.0",
+  "private": false,
+  "homepage": "https://github.com/salami162",
+  "author": "Limin Shen <limin.braganza@gmail.com>",
+  "engines": {
+    "node": "0.10.3"
+  },
+  "keywords": "scaffolding, NodeJS, JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/salami162/scaffolding.git"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "express": "3.1.0",
+    "request": "2.10.0",
+    "requirejs": "2.1.6",
+    "underscore": "1.4.4",
+    "underscore.string": "~2.3.3",
+    "moment": "2.0.0",
+    "jade": "0.34.1",
+    "underscore.deferred": "0.1.5"
+  }
+}

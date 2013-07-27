@@ -1,0 +1,21 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/styles/bootstrap.css')
+    link(rel='stylesheet/less', href='/styles/style.less')
+    block css
+  body
+    div.navbar.navbar-fixed-top
+      div.navbar-inner
+        div.container
+
+    div.container
+
+      block content
+
+      ul.errors.unstyled
+
+    script(src='/scripts/vendor/less.js')
+
+    block scripts
