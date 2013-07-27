@@ -1,15 +1,26 @@
 scaffolding
 ===========
-
-Scaffolding for a node app
-
-### Author:
+#### Author: 
   Limin Shen
 
-### Description:
-  While I was talking with people, and showing them the node project that I did, the most common question is "How hard is it to setup NodeJS?"
+#### Description:
+  While I was talking to people, the most common question is "Is it hard to setup NodeJS?  Do you have like structured one people can build on?"
+  
   I figured why not put up a scaffolding project.  Just like Angular-Seed.
+  
   This project is bare-minimal. Plus you might have to bare with me on the technologies that I choose.  lol.  So be patient. 
+
+#### Technologies:
+## Server
+- NodeJS as server
+- Express middleware
+- Jade server templates
+- LESS for CSS
+## Client
+- RequireJS
+- jQuery
+- underscore
+- bootstrap
 
 ### How to get started?
 - checkout the repo.
